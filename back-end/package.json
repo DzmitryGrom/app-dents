@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "dayjs": "^1.8.28",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.5.0",
+    "lodash": "^4.17.15",
+    "mongodb": "^3.5.8",
+    "mongoose": "^5.9.17",
+    "nodemon": "^2.0.4",
+    "telesignsdk": "^2.2.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon --watch *.js"
+  }
+}
